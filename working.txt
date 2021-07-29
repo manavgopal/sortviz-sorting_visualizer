@@ -10,4 +10,9 @@
 -- Whenever the slider for the speed is adjusted then an event listner function is called which calculates the delay time to be implimented between two 
    comparisions by substracting the given input value from a fixed value, thus ensuring that the delay is less if the input given for the speed is large.
 
+-- When any sorting button is clicked the corresponding sort function is called by the even listner function.
 
+-- For imparting colors to the bars we are just changing the color styling of that particular bar div component which are being compared in the standard sorting algorithm.
+
+-- While calling any sorting function it is very important that we add a delay of some milliseconds otherwise the array will be sorted at once and we will not
+   be able to visualize the sorting process.
