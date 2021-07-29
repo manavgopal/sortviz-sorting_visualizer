@@ -1,0 +1,13 @@
+-- When the index.html is rendered createNewArray function is called with default 60 no. of bars.
+
+-- The array size and the speed of the visulazer is a range value which is set to the mid of the maximum and minimum of the range value.
+
+-- In order to access any class document query selector function from DOM(Document Object Module) is used.
+
+-- Whenever the generateNewArray button is clicked an event listner function is called which triggers certain functions defined inside it.
+-- Whenever the slider for the size of the array is adjusted then an event listener function is called which further calls createNewArray function.
+
+-- Whenever the slider for the speed is adjusted then an event listner function is called which calculates the delay time to be implimented between two 
+   comparisions by substracting the given input value from a fixed value, thus ensuring that the delay is less if the input given for the speed is large.
+
+
